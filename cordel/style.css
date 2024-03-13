@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Passion+One:wght@400;700;900&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+:root{
+    --font-1:"Passion One", sans-serif;
+    --font-2:Verdana, Tahoma, sans-serif
+    --font-3:"Madimi One", sans-serif;
+}
+
+header{
+    background-image: linear-gradient( to bottom, rgb(70, 70, 70), black);
+    color:white;
+    text-align: center;
+}
+header > h1{
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-family: var(--font-1);
+    padding-top: 30px;
+}
+header > p{
+    padding-bottom: 30px;
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-weight:900;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding:10px;
+    font-family: "Madimi One", sans-serif;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+.imagem{
+    background: grey url('imagens/sertão.jpg') right center /cover no-repeat fixed;
+    box-shadow: inset 1px 1px 10px black;
+
+}
+#parte2{
+    background: grey url(imagens/boiadeiro.jpg) right center /cover no-repeat fixed;
+}
+.imagem > p{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.632);
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.741);
+    border-radius: 5px;
+    
+}
+footer{
+    background-color:black;
+    color:white;
+    text-align: center;
+}
