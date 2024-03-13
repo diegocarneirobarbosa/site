@@ -9,7 +9,7 @@
 
 :root{
 
-    --cor0:#0000FF;
+    --cor0:#0000ff9c;
     --cor1:#1600CC;
     --cor2:#110099;
     --cor3:#0B0066;
@@ -99,6 +99,7 @@ section{
     border-radius: 10px;
     padding: 5px;
     box-shadow: 1px 1px 10px var(--cor3);
+    color:rgb(168, 168, 168)
 }
 section > h2{
     text-align: center;
@@ -115,6 +116,7 @@ section > p{
     text-align:justify;
     text-indent:20px;
 }
+
 #caps{
     font-weight: bolder;
     font-variant: small-caps;
