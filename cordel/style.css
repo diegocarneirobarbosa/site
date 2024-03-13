@@ -49,7 +49,7 @@ section{
 
 }
 #parte2{
-    background: grey url(imagens/boiadeiro.jpg) right center /cover no-repeat fixed;
+    background: grey url(imagens/boiadeiro.jpg) center center /cover no-repeat fixed;
 }
 .imagem > p{
     color:white;
