@@ -129,3 +129,29 @@ footer{
     padding:5px;
     margin-top:5px;
 }
+div > h2{
+    font-family: var(--fonte-2);
+    text-align: center;
+    background-color: var(--cor0);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.677)
+}
+div > a{
+
+    color:white;
+    text-decoration:none;
+    background-image:linear-gradient(to right, var(--cor0), transparent );
+    display:block;
+    padding: 5px;
+    font-family: var(--fonte-2);
+    font-weight: bolder;
+}
+
+div > a:hover{
+    text-decoration: underline;
+}
+iframe{
+    height: 400px;
+    width:100%;
+    border: 2px solid black
+}
